@@ -1,0 +1,9 @@
+### POST request to create a product
+POST http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+  "name": "IPhone 17",
+  "description": "Apple is about to launch new iphone 17",
+  "price": 1599
+}
